@@ -1,3 +1,4 @@
+
 # Galamsey Impact Analysis: Spatiotemporal Monitoring using Machine Learning and Sentinel-2 (2019–2024)
 
 ## Project Overview
@@ -28,3 +29,64 @@ The workflow utilizes a robust data science approach to environmental monitoring
 │   └── statistics/          # CSV files (Transition matrices, stats)
 ├── galamsey_analysis.ipynb   # Main analysis script
 └── requirements.txt         # Python dependencies
+Installation & Requirements
+
+To run this analysis, you will need the following libraries:
+
+rasterio
+
+geopandas
+
+scikit-learn
+
+numpy
+
+matplotlib
+
+seaborn
+
+pylandstats
+
+code
+Bash
+download
+content_copy
+expand_less
+pip install rasterio geopandas scikit-learn numpy matplotlib seaborn pylandstats
+Results Preview
+Land Cover Transition
+
+The transition matrix shows the massive shift of Sparse and Moderate Vegetation into Bare/Mining ground.
+
+36.74 km² of Sparse Vegetation converted to mining.
+
+1.76 km² of Moderate Vegetation (Forest) converted to mining.
+
+Model Calibration
+
+The high accuracy of the model is rooted in the spectral contrast identified in the Feature Importance analysis:
+
+Near-Infrared (B08): 35.02% Importance
+
+Red (B04): 33.75% Importance
+
+Data Availability
+
+Satellite Data: Sourced from European Space Agency (ESA) Copernicus Data Space.
+
+Boundaries: GADM v4.1.
+
+References
+
+Pacheco-Pascagaza, A. M., et al. (2022). Near Real-Time Change Detection System Using Sentinel-2 and Machine Learning. Remote Sensing.
+
+Pyrcz, M. J. (2024). Applied Machine Learning in Python: A Hands-on Guide with Code. Zenodo.
+
+Asante, Y., & Helbich, M. (2020). Quantifying forest degradation and deforestation in Ghana using Sentinel-2 data.
+
+Contact
+
+[Your Name/Author Name]
+[Your Email/LinkedIn Profile]
+
+
